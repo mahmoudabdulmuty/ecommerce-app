@@ -55,6 +55,7 @@ const Language = styled.div`
 
 const SearchContainer = styled.div`
 	border: 0.5px solid lightgrey;
+	border-color: red;
 	display: flex;
 	align-items: center;
 	padding: 5px;
