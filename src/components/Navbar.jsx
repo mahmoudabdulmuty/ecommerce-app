@@ -1,6 +1,7 @@
 import { Badge } from '@material-ui/core';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import styled from 'styled-components';
+import logoImg from '../assets/img/notre-logo.png';
 
 const Navbar = () => {
 	return (
@@ -14,7 +15,9 @@ const Navbar = () => {
 					</SearchContainer>
 				</Left>
 				<Center>
-					<Logo>Ecommerce App</Logo>
+					<LogoContainer>
+						<Logo src={logoImg} />
+					</LogoContainer>
 				</Center>
 				<Right>
 					<MenuItem>Register</MenuItem>
@@ -39,6 +42,7 @@ const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	height: 100%;
 `;
 
 const Left = styled.div`
@@ -68,10 +72,15 @@ const Center = styled.div`
 	flex: 1;
 	display: flex;
 	justify-content: center;
+	height: 100%;
 `;
 
-const Logo = styled.h1`
-	font-weight: bold;
+const LogoContainer = styled.div`
+	height: 100%;
+`;
+
+const Logo = styled.img`
+	height: 100%;
 `;
 
 const Right = styled.div`
