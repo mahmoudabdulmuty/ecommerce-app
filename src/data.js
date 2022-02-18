@@ -1,47 +1,41 @@
 export const sliderItems = [
 	{
 		id: 1,
-		img: 'https://i.ibb.co/52zrt5j/Hero-1.png',
+		img: 'https://i.ibb.co/10YQFkc/Hero-3.png',
 		title: 'SUMMER SALE',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-		bg: 'fefcfd'
+		bg: 'f5fafd'
 	},
 	{
 		id: 2,
-		img: 'https://i.ibb.co/7kqt6tP/Hero-2.png',
+		img: 'https://i.ibb.co/DG69bQ4/2.png',
 		title: 'AUTUMN COLLECTION',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-		bg: 'fdf9fb'
+		bg: 'fcf1ed'
 	},
 	{
 		id: 3,
-		img: 'https://i.ibb.co/10YQFkc/Hero-3.png',
+		img: 'https://i.ibb.co/cXFnLLV/3.png',
 		title: 'LOUNGEWEAR LOVE',
-		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-		bg: 'e2d8dc'
-	},
-	{
-		id: 4,
-		img: 'https://i.ibb.co/sK1TP3d/Hero-4.png',
-		title: 'AUTUMN COLLECTION',
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: 'fbf0f4'
 	}
 ];
+
 export const categories = [
 	{
 		id: 1,
-		img: 'https://i.ibb.co/jVRyq33/lee-chinyama-YJN7e-CPi-CPc-unsplash-ccexpress.png',
+		img: 'https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 		title: 'SHIRT STYLE!'
 	},
 	{
 		id: 2,
-		img: 'https://i.ibb.co/k5VJwNg/austin-wade-ou-Lj-GJZri1-Q-unsplash-ccexpress.png',
+		img: 'https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 		title: 'LOUNGEWEAR LOVE'
 	},
 	{
 		id: 3,
-		img: 'https://i.ibb.co/2ZxqYxL/ezequiel-garrido-n-DKPj-QSab-UE-unsplash-ccexpress.png',
+		img: 'https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
 		title: 'LIGHT JACKETS'
 	}
 ];
